@@ -25,4 +25,4 @@ To do that, please open an Merge Request using the following pattern:
 Please, follow the Conventional Commits when submiting your request:
 [Conventional Commits 1.0.0](ttps://www.conventionalcommits.org/en/v1.0.0/)
 
-Submit your Pull Request directly to the main branch.
+Submit your Pull Request directly to the `main` branch.

@@ -1,0 +1,15 @@
+[Unit]
+Description=odoo
+
+[Service]
+PassEnvironment=LANG
+Type=simple
+User=odoo_user
+WorkingDirectory=/home/odoo_user/odoo
+ExecStart=/home/odoo_user/bin/odoo/odoo.sh
+Restart=on-failure
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
